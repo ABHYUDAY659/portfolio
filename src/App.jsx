@@ -60,6 +60,7 @@ function App() {
           <div>Scaling & Autoscaling</div>
           <div>AWS ECS & ECR</div>
           <div>Monorepo Deployment</div>
+          <div>Kubernetes (K8s)</div>
           <div>Reverse Proxies</div>
         </div>
       </section>
@@ -103,14 +104,18 @@ function App() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-mint mb-4">DevOps Journey</h2>
         <ul className="list-disc pl-5 text-gray-300 text-sm space-y-1">
-          <li>Intro to DevOps & VMs</li>
-          <li>Reverse Proxies & Process Management</li>
-          <li>CI/CD pipelines and Certificate Management</li>
-          <li>Docker, Docker Compose, and Monorepo Deployments</li>
-          <li>Vertical/Horizontal Scaling & Autoscaling Groups (ASG)</li>
-          <li>AWS ECS, ECR, and Container Orchestration</li>
-          <li>Deploying Frontends on AWS</li>
-          <li>Solana Alpha Session (Birthday Special)</li>
+        <li>Intro to DevOps & VMs</li>
+    <li>Reverse Proxies & Process Management</li>
+    <li>CI/CD pipelines and Certificate Management</li>
+    <li>Docker, Docker Compose, and Monorepo Deployments</li>
+    <li>Vertical/Horizontal Scaling & Autoscaling Groups (ASG)</li>
+    <li>AWS ECS, ECR, and Container Orchestration</li>
+    <li>Deploying Frontends on AWS</li>
+    <li>Linux & Bash Scripting</li>
+    <li>Docker (Deep Dive)</li>
+    <li>Kubernetes (K8s)</li>
+    <li>Helm Charts and Templates</li>
+    <li>Monitoring with Prometheus and Grafana</li>       
         </ul>
       </section>
 
