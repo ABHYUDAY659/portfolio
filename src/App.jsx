@@ -31,28 +31,28 @@ function App() {
     I come from an entrepreneurial background where I have worked on real business problems involving  customer behavior, digital marketing, and growth strategies. This has helped me develop a strong problem-solving mindset focused on root-cause analysis rather than surface-level fixes.
   </p>
   <p className="mt-2 text-gray-300">
-    Now, by combining this business-first mindset with modern Data & Business Analytics skills (Excel, SQL, Python, and Data Visualization), I aim to help companies make smarter decisions, optimize operations, and drive measurable growth.
+    Now, by combining this business-first mindset with modern Data & Business Analytics skills (Excel, SQL and Data Visualization), I aim to help companies make smarter decisions, optimize operations, and drive measurable growth.
   </p>
 </section>
 
-      {/* Skills */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-mint mb-4">Core Skills</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm text-gray-300">
-          <div>Advanced Excel</div>
-          <div>Power Query</div>
-          <div>Power Pivot & DAX</div>
-          <div>SQL(PostgreSQL)</div>
-          <div>Joins, Subqueries</div>
-          <div>Data Cleaning</div>
-          <div>Python (Pandas, NumPy)</div>
-          <div>Matplotlib, Seaborn & Plotly</div>
-          <div>Exploratory Data Analysis</div>
-          <div>Business Analysis</div>
-          <div>Dashboard Design</div>
-          <div>Storytelling with Data</div>
-        </div>
-      </section>
+ {/* Core Skills */}
+<section className="mb-12">
+  <h2 className="text-2xl font-semibold text-mint mb-4">Core Skills</h2>
+  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm text-gray-300">
+    <div>Advanced Excel (Pivot Tables, Dashboards)</div>
+    <div>Power Query (ETL & Data Transformation)</div>
+    <div>Power BI (DAX Measures & KPIs)</div>
+    <div>SQL (PostgreSQL)</div>
+    <div>Joins, CTEs, Window Functions</div>
+    <div>Data Cleaning & Validation</div>
+    <div>Business Analysis & KPI Tracking</div>
+    <div>Dashboard Design & Reporting</div>
+    <div>Requirement Gathering & Documentation</div>
+    <div>Stakeholder Communication</div>
+    <div>Storytelling with Data</div>
+  </div>
+</section>
+
 
       {/* Projects */}
 <section className="mb-12">
@@ -60,8 +60,8 @@ function App() {
 
   <div className="bg-gray-800 p-6 rounded-xl text-center">
     <p className="text-gray-300 mb-3">
-      I am currently building multiple real-world Data & Business Analytics projects using
-      Excel, SQL, and Python. These projects will be added here as they are completed.
+      I am currently building multiple real-world Business Analytics projects using
+      Excel, SQL, and Power BI. These projects will be added here as they are completed.
     </p>
 
     <p className="text-gray-400 text-sm mb-4">
@@ -82,18 +82,23 @@ function App() {
 
 
 
-      {/* Learning Roadmap */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-mint mb-4">Learning Roadmap</h2>
-        <ul className="list-disc pl-5 text-gray-300 text-sm space-y-1">
-          <li>Advanced SQL & Window Functions</li>
-          <li>Python Automation</li>
-          <li>Plotly Interactive Dashboards</li>
-          <li>Business Case Studies</li>
-          <li>Statistics for Analytics</li>
-          <li>Power BI (Later Phase)</li>
-        </ul>
-      </section>
+    {/* Learning Roadmap */}
+<section className="mb-12">
+  <h2 className="text-2xl font-semibold text-mint mb-4">Learning Roadmap</h2>
+  <ul className="list-disc pl-5 text-gray-300 text-sm space-y-1">
+    <li>Advanced Excel for Business Reporting (Pivot Tables, Power Query, Dashboards, VLOOKUP/XLOOKUP, Data Validation)</li>
+    <li>SQL for Business Analytics (Joins, Subqueries,  Group By, Window Functions)</li>
+    <li>Power BI & Data Visualization (Power Query, DAX Measures, KPI Cards, Interactive Dashboards)</li>
+    <li>Business Analysis & KPI Frameworks (Requirement Gathering, Performance Tracking, Reporting Standards)</li>
+    <li>Data Cleaning & Transformation (Missing Data Handling, Outlier Treatment, Normalization)</li>
+    <li>Stakeholder Communication & Business Reporting</li>
+    <li>Problem Solving, Process Mapping & Business Documentation</li>
+  </ul>
+  <p className="mt-3 text-xs text-gray-400 italic">
+    Designed and followed as part of my Business Analyst career preparation.
+  </p>
+</section>
+
 
       <footer className="border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
         © 2025 Abhyuday Sharma
